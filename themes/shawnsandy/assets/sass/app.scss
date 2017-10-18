@@ -1,0 +1,83 @@
+.cover-page {
+
+	.header {
+		background-color: transparent;
+	}
+}
+
+
+.pitch {
+	background-image: url("/img/feature-bg@2x.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #004290;
+}
+
+.about {
+	background-color: #004290;
+	color: #ffffff;
+	// border-top-left-radius: 20px;
+
+	p {
+		text-align: justify;
+		color: #DCECFF;
+		line-height: 1.7;
+
+		&.is-size-3 {
+			line-height: 1.5;
+		}
+	}
+
+
+}
+
+.footer {
+	background-color: transparent;
+	color: #3b3b3b
+}
+
+.section-marker {
+	height: 100px;
+	width: 100px;
+	background-color: #004290;
+	border-radius: 50%;
+	display: flex;
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.section-marker-white {
+	@extend .section-marker;
+	background-color: #ffffff;
+	color: #004290;
+
+}
+
+.feature-text {
+	font-family: 'Merriweather',
+	serif;
+}
+
+.button {
+	border-radius: 30px;
+}
+
+.flex-center {
+	display: flex;
+		display: flex;
+		text-align: center;
+		height: 100%
+}
+
+.post-section {
+background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dfdfdf' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+
+}

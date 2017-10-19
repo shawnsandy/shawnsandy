@@ -2,6 +2,7 @@
 
 	.header {
 		background-color: transparent;
+		height: 100vh;
 	}
 }
 
@@ -27,6 +28,11 @@
 		&.is-size-3 {
 			line-height: 1.5;
 		}
+	}
+
+	.button {
+		color: #004290;
+		font-size: 13px;
 	}
 
 

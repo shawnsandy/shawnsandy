@@ -9,14 +9,14 @@
 
 @section('content')
 <header class="header">
-    <section class="hero is-medium">
+    <section class="hero">
 
         <div class="hero-body has-text-centered" data-aos="fade"  data-aos-duration="3000">
             <div class="section is-large">
                 <img src="/img/site-cover.png">
             </div>
         </div>
-        <div class="section has-text-centered flex-center" data-aos="fade-down" data-aos-duration="1000">
+        <div class="section is-medium has-text-centered flex-center" data-aos="fade-down" data-aos-duration="1000">
             <div class="section-marker"><i class="im im-angle-down"></i></div>
         </div>
 

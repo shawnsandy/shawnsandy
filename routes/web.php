@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return config("jarvis");
+    //dd(jarvis_views("shawnsandy", "shawnsandy"));
+    return view(jarvis_views("main", "shawnsandy"));
 });
 
 

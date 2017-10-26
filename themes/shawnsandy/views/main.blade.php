@@ -1,33 +1,35 @@
-@php $theme_class = "cover-page"; @endphp
+@php
+$theme_class = "cover-page";
+jarvis_theme("shawnsandy");
+@endphp
+
 @extends(jarvis_views('layouts.main'))
- @push("styles")
+@push("styles")
 
 <link rel="stylesheet" href="/css/shawnsandy/app.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.2.0/dist/aos.css">
-<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
 @endpush
 
 @section('content')
 <header class="header">
     <section class="hero">
-
         <div class="hero-body has-text-centered" data-aos="fade"  data-aos-duration="3000">
             <div class="section is-large">
                 <img src="/img/site-cover.png">
             </div>
         </div>
-        <div class="section is-medium has-text-centered flex-center" data-aos="fade-down" data-aos-duration="1000">
+        <div class="section is-medium has-text-centered flex-center" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
             <div class="section-marker"><i class="im im-angle-down"></i></div>
         </div>
-
     </section>
 </header>
 <section class="pitch is-medium">
-@include(jarvis_views("components.pitch", "shawnsandy"))
+@include(jarvis_views("components.pitch"))
 </section>
 
 <main class="projects">
-   @include(jarvis_views("components.projects", "shawnsandy"))
+   @include(jarvis_views("components.projects"))
 </main>
 
 <section class="info post-section">
@@ -38,26 +40,16 @@
             <div class="container is-fluid">
                 <div class="section">
 
-                @include(jarvis_views("components.articles", "shawnsandy"))
-                <div class="columns">
+                @include(jarvis_views("components.articles"))
+                @include(jarvis_views("components.connect"))
 
-                        <div class="column is-10 is-offset-1-desktop ">
-                        <div class="section">
-            <div class="section-marker">Connect</div>
-        </div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio ad perspiciatis aliquam,
-                                explicabo quaerat deleniti expedita quae? Corrupti, consectetur ipsum.</p>
-
-                        </div>
-                    </div>
 
                 </div>
             </div>
-
         </div>
 
         <div class="column about is-paddingless">
-         @include(jarvis_views("components.about", "shawnsandy"))
+         @include(jarvis_views("components.about"))
         </div>
 
     </div>

@@ -56,7 +56,11 @@ jarvis_theme("shawnsandy");
 </div>
 
 </section>
-
+<div>
+            <a data-scroll="" href="#body" class="back-to-top animated bounceInUp">
+  <i class="im im-arrow-up-circle is-2"></i>
+  </a>
+        </div>
 @endsection
 @push("scripts")
 <script src="https://cdn.jsdelivr.net/npm/aos@2.2.0/dist/aos.min.js"></script>

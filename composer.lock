@@ -1048,16 +1048,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.5.17",
+            "version": "v5.5.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3a16d196bd8d2b7761c9b0060a30a3687c3ea201"
+                "reference": "1cc21baac11551377734b8c17ead17db4c34fe21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3a16d196bd8d2b7761c9b0060a30a3687c3ea201",
-                "reference": "3a16d196bd8d2b7761c9b0060a30a3687c3ea201",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/1cc21baac11551377734b8c17ead17db4c34fe21",
+                "reference": "1cc21baac11551377734b8c17ead17db4c34fe21",
                 "shasum": ""
             },
             "require": {
@@ -1098,7 +1098,6 @@
                 "illuminate/database": "self.version",
                 "illuminate/encryption": "self.version",
                 "illuminate/events": "self.version",
-                "illuminate/exception": "self.version",
                 "illuminate/filesystem": "self.version",
                 "illuminate/hashing": "self.version",
                 "illuminate/http": "self.version",
@@ -1176,7 +1175,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-10-17 12:19:22"
+            "time": "2017-10-19 12:50:26"
         },
         {
             "name": "laravel/tinker",
@@ -2777,16 +2776,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.12",
+            "version": "v0.8.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "1502354ebc70d59d8e3a87c325b0eb78a79da25b"
+                "reference": "cdb5593c3684bab74e10fcfffe4a0c8d1c39695d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/1502354ebc70d59d8e3a87c325b0eb78a79da25b",
-                "reference": "1502354ebc70d59d8e3a87c325b0eb78a79da25b",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/cdb5593c3684bab74e10fcfffe4a0c8d1c39695d",
+                "reference": "cdb5593c3684bab74e10fcfffe4a0c8d1c39695d",
                 "shasum": ""
             },
             "require": {
@@ -2846,7 +2845,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-10-14 17:14:13"
+            "time": "2017-10-19 06:13:20"
         },
         {
             "name": "ramsey/uuid",
@@ -3495,12 +3494,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/jarvis.git",
-                "reference": "820470eda9c07c566cf41425a6f0e92564cc5229"
+                "reference": "14c1c16f8849ac8709579f989b885153d7e07418"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/jarvis/zipball/820470eda9c07c566cf41425a6f0e92564cc5229",
-                "reference": "820470eda9c07c566cf41425a6f0e92564cc5229",
+                "url": "https://api.github.com/repos/shawnsandy/jarvis/zipball/14c1c16f8849ac8709579f989b885153d7e07418",
+                "reference": "14c1c16f8849ac8709579f989b885153d7e07418",
                 "shasum": ""
             },
             "require": {
@@ -3575,7 +3574,7 @@
                 "source": "https://github.com/shawnsandy/jarvis/tree/master",
                 "issues": "https://github.com/shawnsandy/jarvis/issues"
             },
-            "time": "2017-10-17 22:59:10"
+            "time": "2017-10-19 19:18:05"
         },
         {
             "name": "stecman/symfony-console-completion",

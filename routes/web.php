@@ -14,7 +14,8 @@
 Route::get('/', function () {
     //dd(jarvis_views("shawnsandy", "shawnsandy"));
     return view(jarvis_views("main", "shawnsandy"));
-});
+}
+);
 
 
 Route::group(['prefix' => config("jarvis.base_url")], function () {

@@ -28,7 +28,7 @@
                                 </p>
 
 <div class="section has-text-right">
-<a href="" class="button is-large is-light is-size-3 is-uppercase">Full Bio</a>
+<a href="" class="button is-large is-light is-size-3 is-uppercase">Download</a>
 </div>
 
 

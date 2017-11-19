@@ -29,7 +29,7 @@
 
 
 <div class="section has-text-right">
-<a href="/resume_download" target="_blank" class="button is-large is-light is-size-3 is-uppercase">Download</a>
+<a href="/resume_download" target="_blank" class="button is-large is-light is-size-4 is-uppercase">Download PDF</a>
 </div>
 
 

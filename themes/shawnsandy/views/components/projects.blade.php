@@ -20,9 +20,7 @@
                 <div class="columns is-fluid is-multiline">
                     <div class="column is-4">
                     <p class="subtitle is-2">Sample Image</p>
-
                         <img src="{{ Imgfly::img('amotivated-me.jpeg?w=448&h=340&fit=crop-top') }}" alt="">
-
                     </div>
                     <div class="column is-4">
                     <p class="subtitle is-2">Sample Image</p>

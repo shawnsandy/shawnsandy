@@ -5,7 +5,8 @@
         </div>
         <div class="columns">
             <div class="column" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit recusandae itaque fuga, tempore alias totam
+            <img src="{{ img_url('amotivated-me.jpeg?w=400&h=600') }}" alt="">
+                <p>ffLorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit recusandae itaque fuga, tempore alias totam
                     amet beatae ullam molestias exercitationem illum nemo asperiores, nobis consequatur, fugiat voluptatibus
                     nihil! Assumenda sequi perspiciatis officia quidem commodi ea corrupti, excepturi vel libero porro repellendus
                     dolores molestiae maxime cupiditate saepe in non exercitationem deserunt. Quisquam autem, consequuntur

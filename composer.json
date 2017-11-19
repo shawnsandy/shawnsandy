@@ -28,6 +28,7 @@
         "mews/purifier": "^2.0",
         "plank/laravel-mediable": "^2.5",
         "rap2hpoutre/laravel-log-viewer": "^0.11.0",
+        "shawnsandy/img-fly": "dev-master",
         "shawnsandy/jarvis": "dev-master",
         "spatie/laravel-collection-macros": "^3.4",
         "thujohn/twitter": "^2.2",
@@ -58,6 +59,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/shawnsandy/jarvis"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/shawnsandy/img-fly"
         }
     ],
     "extra": {

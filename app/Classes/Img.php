@@ -8,11 +8,6 @@ use League\Glide\ServerFactory;
 class Img
 {
 
-
-
-
-
-
 	/**
 	aram                                                                           $path
 	* @param                                                                           $dir

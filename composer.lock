@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6c917d1014cd218ed6a92e998b63bc0",
+    "content-hash": "a382427125f2e2831fd2f795e5ac64af",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -5180,6 +5180,51 @@
             "time": "2016-10-03T07:35:21+00:00"
         },
         {
+            "name": "shawnsandy/img-fly",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shawnsandy/img-fly.git",
+                "reference": "d10d7408614858b5c003fca2d8090181af3558c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shawnsandy/img-fly/zipball/d10d7408614858b5c003fca2d8090181af3558c0",
+                "reference": "d10d7408614858b5c003fca2d8090181af3558c0",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*",
+                "league/glide-laravel": "1.*",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ShawnSandy\\ImgFly\\ImgflyServiceProvider"
+                    ],
+                    "aliases": {
+                        "Imgfly": "ShawnSandy\\ImgFly\\Classes\\ImgflyFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ShawnSandy\\ImgFly\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Dynamically resize images on the Fly",
+            "support": {
+                "source": "https://github.com/shawnsandy/img-fly/tree/master",
+                "issues": "https://github.com/shawnsandy/img-fly/issues"
+            },
+            "time": "2017-11-19T22:40:16+00:00"
+        },
+        {
             "name": "shawnsandy/jarvis",
             "version": "dev-master",
             "source": {
@@ -6921,6 +6966,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "shawnsandy/img-fly": 20,
         "shawnsandy/jarvis": 20
     },
     "prefer-stable": false,

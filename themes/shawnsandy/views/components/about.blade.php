@@ -7,7 +7,7 @@
                             </div>
                             <div class="content">
                                 <p class="is-size-3">
-                                    Hi, I’m Shawn Sandy a FULL STACK DESIGNER / WEB DEVELOPER, with a passion for building web applications that can actively engage users in
+                                   I’m Shawn Sandy a FULL STACK DESIGNER / WEB DEVELOPER, with a passion for building web applications that can actively engage users in
                                     responsive thought. Enhancing the customer experience and improving product conversion
                                     outcomes. I currently work for a small company in Spring Hill, Florida building SaaS
                                     applications for workforce boards.
@@ -27,8 +27,9 @@
                                     etc. My role as both designer and developer is to create products that put function first.
                                 </p>
 
+
 <div class="section has-text-right">
-<a href="" class="button is-large is-light is-size-3 is-uppercase">Download</a>
+<a href="/resume_download" target="_blank" class="button is-large is-light is-size-3 is-uppercase">Download</a>
 </div>
 
 

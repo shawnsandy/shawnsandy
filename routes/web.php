@@ -2,9 +2,8 @@
 
 
 
-
 /*
-------------------------------------------------------------------------
+-----------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
 |
@@ -22,11 +21,17 @@ Route::get('/', function () {
 
 
 Route::group(['prefix' => config("jarvis.base_url")], function () {
-	
+
 	Jarvis::install_routes();
 	Jarvis::routes();
-	
+
+}
+);
+
+Route::get('resume_download', function() {
+	return response()->file(storage_path('app/Front.End.Design.pdf') );
 }
 );
 
 
+Route::get('img/{dir}/{path}', "\App\Http\Controllers\ImgController")->where('path', '.+');

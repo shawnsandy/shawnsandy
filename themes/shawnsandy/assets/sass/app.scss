@@ -9,6 +9,30 @@
 	}
 }
 
+.projects {
+
+	.section-marker {
+		margin-bottom: 50px;
+	}
+
+	.content {
+		padding: 15px;
+	}
+
+	.subtitle {
+		color: gray;
+		text-transform: uppercase;
+	}
+
+	margin: 0 0 80px;
+
+	img {
+		    border-radius: 5px;
+		    border: 1px whitesmoke solid;
+	}
+
+}
+
 .pitch {
 	background-image: url("/img/feature-bg@2x.jpg");
 	background-repeat: no-repeat;

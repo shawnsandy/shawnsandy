@@ -13,3 +13,4 @@ yarn-error.log
 /components
 storage/\.DS_Store
 !storage/app/images/**/*.*
+.DS_Store

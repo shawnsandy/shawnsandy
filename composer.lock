@@ -5191,12 +5191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/img-fly.git",
-                "reference": "b44db3172f7a04086d32829d793ec7818f66d5ac"
+                "reference": "b3c13e23843c797a519beb9e75e250372ad7266e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/img-fly/zipball/b44db3172f7a04086d32829d793ec7818f66d5ac",
-                "reference": "b44db3172f7a04086d32829d793ec7818f66d5ac",
+                "url": "https://api.github.com/repos/shawnsandy/img-fly/zipball/b3c13e23843c797a519beb9e75e250372ad7266e",
+                "reference": "b3c13e23843c797a519beb9e75e250372ad7266e",
                 "shasum": ""
             },
             "require": {
@@ -5228,7 +5228,7 @@
                 "source": "https://github.com/shawnsandy/img-fly/tree/master",
                 "issues": "https://github.com/shawnsandy/img-fly/issues"
             },
-            "time": "2017-11-22T21:42:41+00:00"
+            "time": "2017-11-22T22:03:17+00:00"
         },
         {
             "name": "shawnsandy/jarvis",

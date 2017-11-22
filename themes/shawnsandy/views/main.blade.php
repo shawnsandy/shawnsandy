@@ -6,17 +6,24 @@ jarvis_theme("shawnsandy");
 @extends(jarvis_views('layouts.main'))
 @push("styles")
 
-<link rel="stylesheet" href="/css/shawnsandy/app.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.2.0/dist/aos.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+<link rel="stylesheet" href="/css/shawnsandy/app.css">
 @endpush
 
 @section('content')
 <header class="header">
     <section class="hero">
         <div class="hero-body has-text-centered" data-aos="fade"  data-aos-duration="3000">
-            <div class="section is-large">
-                <img src="/img/site-cover.png">
+            <div class="section is-medium">
+                <img src="/img/site-cover.png" alt="Shawn Sandy Fullstack Designer">
+            </div>
+            <div class="container">
+            <div class="columns">
+            <div class="column">
+                <p class="is-size-1 has-text-centered feature-text" data-aos="fade-up" data-aos-duration="800">Hi, I’m a full stack freelance FRONT END DESIGNER &amp; DEVELOPER, with a passion for building applications that actively engage users in responsive thought.
+                </p>
+            </div>
             </div>
         </div>
         <div class="section is-medium has-text-centered flex-center" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
@@ -24,9 +31,10 @@ jarvis_theme("shawnsandy");
         </div>
     </section>
 </header>
-<section class="pitch is-medium">
+
+{{--  <section class="pitch is-medium">
 @include(jarvis_views("components.pitch"))
-</section>
+</section>  --}}
 
 <main class="projects">
    @include(jarvis_views("components.projects"))

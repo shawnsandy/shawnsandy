@@ -11,6 +11,8 @@
 
 .projects {
 
+	background-color: whitesmoke;
+
 	.section-marker {
 		margin-bottom: 50px;
 	}
@@ -24,11 +26,10 @@
 		text-transform: uppercase;
 	}
 
-	margin: 0 0 80px;
 
 	img {
 		    border-radius: 5px;
-		    border: 1px whitesmoke solid;
+		    border: 1px #ffffff solid;
 	}
 
 }
@@ -39,8 +40,13 @@
 	background-size: cover;
 	background-position: center center;
 	color: #004290;
+
 }
 
+	.feature-text {
+		font-size: 3.6rem;
+		color: #004290;
+	}
 .about {
 	color: #ffffff;
 	background-color: #004290;

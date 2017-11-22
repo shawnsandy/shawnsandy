@@ -10,7 +10,7 @@
 }
 
 .projects {
-  margin: 0 0 80px;
+  background-color: whitesmoke;
 }
 
 .projects .section-marker,
@@ -29,7 +29,7 @@
 
 .projects img {
   border-radius: 5px;
-  border: 1px whitesmoke solid;
+  border: 1px #ffffff solid;
 }
 
 .pitch {
@@ -37,6 +37,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  color: #004290;
+}
+
+.feature-text {
+  font-size: 3.6rem;
   color: #004290;
 }
 

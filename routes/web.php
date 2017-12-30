@@ -36,3 +36,9 @@ Route::get('resume_download', function() {
 Route::get('img/{dir}/{path}', "\App\Http\Controllers\ImgController")->where('path', '.+');
 
 Imgfly::routes();
+
+Backstory::routes();
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

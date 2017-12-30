@@ -12,4 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.js('themes/shawnsandy/assets/js/app.js', 'public/js/shawnsandy')
-   .sass('themes/shawnsandy/assets/sass/app.scss', 'public/css/shawnsandy');
+    .js('resources/assets/js/app.js', 'public/js/')
+   .sass('themes/shawnsandy/assets/sass/app.scss', 'public/css/shawnsandy')
+   .sass('resources/assets/sass/app.scss', 'public/css/')
+   ;

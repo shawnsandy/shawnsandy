@@ -8,6 +8,7 @@
         "php": ">=7.0.0",
         "abraham/twitteroauth": "^0.7.4",
         "albertcht/invisible-recaptcha": "^1.8",
+        "appstract/laravel-blade-directives": "^0.7.0",
         "barryvdh/laravel-ide-helper": "^2.4",
         "brotzka/laravel-dotenv-editor": "^2.0",
         "doctrine/dbal": "^2.6",
@@ -28,6 +29,7 @@
         "mews/purifier": "^2.0",
         "plank/laravel-mediable": "^2.5",
         "rap2hpoutre/laravel-log-viewer": "^0.11.0",
+        "shawnsandy/backstory": "dev-master",
         "shawnsandy/img-fly": "dev-master",
         "shawnsandy/jarvis": "dev-master",
         "spatie/laravel-collection-macros": "^3.4",
@@ -63,6 +65,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/shawnsandy/img-fly"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/shawnsandy/backstory"
         }
     ],
     "extra": {
